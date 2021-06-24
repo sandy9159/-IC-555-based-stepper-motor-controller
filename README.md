@@ -112,3 +112,23 @@ Now we are clear with the theory now we can move towards our controller
  ![Schematic_IC555 BASED STEPPER MOTOR TESTING MODULE_2021-06-24](https://user-images.githubusercontent.com/19898602/123281911-af837180-d527-11eb-969d-cbc220655abd.png)
  
 
+This is the circuit diagram of the controller
+First of we TB (terminal block) here we will connect power supply 
+then the applied voltage passed through polarity protection diode D1
+This Diode D1 save our circuit from cross polarity
+then the supplied voltage given to the IN pin of 7805 and GND is connected
+to the GND pin of 7805 
+7805 Is a voltage regulator IC it convert input voltage to 5V output voltage
+we need 5V in A4988 IC so we added this LM 7805 voltage regulator IC
+in our circuit.
+Further, we have on Green LED this will indicate that PCB is powered ON
+Further, we connected the 50K ohm potentiometer to the DIS pin of IC 555
+This will control the charging and discharging time of capacitor C3 & C4
+In result we will get adjustable Square wave at OUT pin of IC 555.
+By rotating POT we will change the speed of stepper motor 
+and by pressing the push butting we can change the direction of stepper motor
+
+
+
+
+
