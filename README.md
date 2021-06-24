@@ -13,7 +13,14 @@ Suppose you just need to check your stepper motor or A4988 stepper driver or you
 run stepper motor for any simple application you have to go through traditional way
 However, by using this controller simple just connect stepper motor wires and connect power supply to PCB 
 that is it you are ready to go.
+The PCB controller which I have used in this project is orderd from [JLCPCB.com](https://jlcpcb.com/IAT)
 Further in this post we will learn in depth about how this controller work 
 
 
 # VIDEO
+
+[![](https://img.youtube.com/vi/RE0nTC17tEM/0.jpg)](https://www.youtube.com/watch?v=RE0nTC17tEM)
+
+I also have a full video on this project on my youtube channel youu can watch the full video 
+you will get most of the idea by watching this video 
+to watch video juct click on above image
