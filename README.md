@@ -98,5 +98,17 @@ Now we are clear with the theory now we can move towards our controller
 ![MVI_5077 00_01_37_01 Still001](https://user-images.githubusercontent.com/19898602/123279549-94176700-d525-11eb-83e1-f019b626846b.jpg)
 ![MVI_5077 00_02_08_16 Still002](https://user-images.githubusercontent.com/19898602/123279558-9679c100-d525-11eb-8c4a-0417723f8536.jpg)
 
+# COMPONENT USED
+
+![image](https://user-images.githubusercontent.com/19898602/123279978-012afc80-d526-11eb-9528-435387b90031.png)
+
+ A simple 555 Timer Stepper Motor Controller Circuit is designed with few easily available components. 
+ This circuit makes stepper motor to drive continuously without any interruption or step stop. 
+ By using this circuit we can drive unipolar stepper motors with different voltage ratings. 
+ Keep in mind that this circuit uses only 9V power supply and capable of drive stepper motors under 12V. 
+ If you want to drive higher than 12V stepper motors then add external power source to stepper motor and power switching transistors.
+ 
+ # CIRCUIT DIAGRAM
+ ![Schematic_IC555 BASED STEPPER MOTOR TESTING MODULE_2021-06-24](https://user-images.githubusercontent.com/19898602/123281911-af837180-d527-11eb-969d-cbc220655abd.png)
  
 
