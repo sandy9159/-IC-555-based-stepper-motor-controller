@@ -73,4 +73,12 @@ Micro stepping mode give smooth and silent motion to stepper motor by providing 
 ![micro-1024x477](https://user-images.githubusercontent.com/19898602/123276086-7e547280-d522-11eb-838e-c9bfc83a6743.jpg)
 
  
+ # STEPPER DRIVER IC
+ Till now we learn how stepper motor works, now we will see what we need to run stepper motor
+So we have a stepper driver IC which we known as A4988 there are many other stepper driver IC
+more or less all are work on same principle.
+
+![0J10073 600](https://user-images.githubusercontent.com/19898602/123278053-40584e00-d524-11eb-86e1-c1bd8f9c2c21.jpg)
+
+ 
 
