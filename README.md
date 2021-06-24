@@ -80,5 +80,23 @@ more or less all are work on same principle.
 
 ![0J10073 600](https://user-images.githubusercontent.com/19898602/123278053-40584e00-d524-11eb-86e1-c1bd8f9c2c21.jpg)
 
+The A4988 is a microstepping driver for controlling bipolar stepper motors which has built-in translator for easy operation. 
+This means that we can control the stepper motor with just 2 pins from our controller, 
+or one for controlling the rotation direction and the other for controlling the steps.
+
+In this way we now understand we need two types of signal to run stepper motor through
+A4988 stepper driver IC 
+one is STEP singla which is in square wave in nature
+and one is DIRECTIONAL signal which is normal digital signal in nature.
+
+In this way we can conclude that we can use IC 555 because we can generate adustabel square wave using IC 555
+by using POT with IC 555 we can also control the speed of stepper motor
+
+Now we are clear with the theory now we can move towards our controller
+
+# IC555 BASED STEPPER MOTOR CONTROLLER
+![MVI_5077 00_01_37_01 Still001](https://user-images.githubusercontent.com/19898602/123279549-94176700-d525-11eb-83e1-f019b626846b.jpg)
+![MVI_5077 00_02_08_16 Still002](https://user-images.githubusercontent.com/19898602/123279558-9679c100-d525-11eb-8c4a-0417723f8536.jpg)
+
  
 
