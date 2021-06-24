@@ -3,16 +3,26 @@
 
 Hello friends this time I have developed a IC 555 based controller to control stepper motor
 This controller can control speed as well as direction of stepper motor.
+
+
 This small PCB based controller is very handy to test A4988 stepper driver IC and Stepper motors.
 The main plus point of this controller is it does not required any coding.
 Those of you have worked with stepper motor at any point of time 
+
+
 they must know it is too much pain to run a stepper motor
 Traditionally we need a microcontroller then we need a stepper driver IC then we need to write code to run stepper motor then we need to upload that code to our microcontroller.
 All after this, we are able to run or stepper motor.
+
+
 Suppose you just need to check your stepper motor or A4988 stepper driver or you need to 
 run stepper motor for any simple application you have to go through traditional way
+
+
 However, by using this controller simple just connect stepper motor wires and connect power supply to PCB 
 that is it you are ready to go.
+
+
 The PCB controller which I have used in this project is orderd from [JLCPCB.com](https://jlcpcb.com/IAT)
 Further in this post we will learn in depth about how this controller work 
 
@@ -32,6 +42,9 @@ Stepper motor runs in steps as name suggest.
 Basically stepper motors are brushless DC motors, normally a permanent magnet rotor placed in between of stator winding.
 
 Stator winding then energize step by step in a sequential way so it get magnetize and force rotor to align with the magnetic field of stator coil.
+
+# PCB DEVELOPMENT 
+
 
 in this way rotor begin rotate in small steps, due to this behavior the motor gets its name “stepper motor”
 
@@ -113,20 +126,51 @@ Now we are clear with the theory now we can move towards our controller
  
 
 This is the circuit diagram of the controller
+
 First of we TB (terminal block) here we will connect power supply 
+
 then the applied voltage passed through polarity protection diode D1
 This Diode D1 save our circuit from cross polarity
+
 then the supplied voltage given to the IN pin of 7805 and GND is connected
 to the GND pin of 7805 
+
 7805 Is a voltage regulator IC it convert input voltage to 5V output voltage
 we need 5V in A4988 IC so we added this LM 7805 voltage regulator IC
 in our circuit.
+
 Further, we have on Green LED this will indicate that PCB is powered ON
 Further, we connected the 50K ohm potentiometer to the DIS pin of IC 555
+
 This will control the charging and discharging time of capacitor C3 & C4
 In result we will get adjustable Square wave at OUT pin of IC 555.
+
 By rotating POT we will change the speed of stepper motor 
 and by pressing the push butting we can change the direction of stepper motor
+
+
+# PCB DEVELOPMENT 
+![555](https://user-images.githubusercontent.com/19898602/123296714-84534f00-d534-11eb-9e8a-573e34f0b42b.JPG)
+![MVI_5077 00_01_19_01 Still003](https://user-images.githubusercontent.com/19898602/123296865-a51ba480-d534-11eb-84f7-61e5928b4a7e.jpg)
+![MVI_5077 00_01_32_03 Still004](https://user-images.githubusercontent.com/19898602/123296871-a64cd180-d534-11eb-812c-2b39fdcd2640.jpg)
+![MVI_5077 00_01_37_01 Still001](https://user-images.githubusercontent.com/19898602/123296876-a6e56800-d534-11eb-8736-48ed3e79e2c5.jpg)
+
+
+I have design this PCB in easyEDA software 
+this PCB have mostly surface mounted components.
+it is a 2 layer PCB .
+
+
+I always prefer [JLCPCB.com](https://jlcpcb.com/IAT) for my PCB needs, [JLCPCB.com](https://jlcpcb.com/IAT) have best deals for their customers
+$2 for 1-4 Layer PCBs, free SMT assembly monthly.
+
+
+and this is not it if you are new customer for [JLCPCB.com](https://jlcpcb.com/IAT) you will get 18$ coupon on your
+first registration to their site its limited period offer so what are waiting for go  and get your benefit. 
+
+
+[Click here to visit JLCPCB.com](https://jlcpcb.com/IAT)
+
 
 
 
