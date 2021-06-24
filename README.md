@@ -41,3 +41,36 @@ this quality of stepper motor makes is best suitable to be used were high precis
 
 ![STEPPER-2](https://user-images.githubusercontent.com/19898602/123275483-fa9a8600-d521-11eb-8d4e-fa7ab2ac37de.gif)
 
+Also here we have to note another best quality of stepper motor is High torque at low RPM & Holding torque.
+
+We know that rotor of stepper motor rotates by sequentially energising stator coils.
+
+if we energize a single set of coil with time delay respectively we get slower RPM of stepper motor.
+
+hence we also get high torque because rotor is always in hold within the magnetic field of energized stator coils.
+
+If we keep energize a single set of stator coil the rotor will be stay on its place with maximum torque.
+
+# Driving methods
+
+Single coil excitation mode
+There are many methods to drive stepper motor.
+how stepper motor works with single coil excitation is basic method to drive stepper motor.
+![SINGLE-STEP-1536x771](https://user-images.githubusercontent.com/19898602/123275974-67ae1b80-d522-11eb-8efc-6cf1cc30470b.jpg)
+
+
+
+Full step Mode
+In full step drive mode 2 coils are excited at same time because of this it provide higher torque to the motor.
+![full-step-1024x493](https://user-images.githubusercontent.com/19898602/123276037-7563a100-d522-11eb-945f-90ae72e65d9b.jpg)
+
+
+
+Micro-stepping mode
+Micro stepping mode is the now most famous way to control stepper motor, high precision can achieve by this drive mode.
+Micro stepping mode give smooth and silent motion to stepper motor by providing variable controlled current to the coil in form of sine wave.
+
+![micro-1024x477](https://user-images.githubusercontent.com/19898602/123276086-7e547280-d522-11eb-838e-c9bfc83a6743.jpg)
+
+ 
+
