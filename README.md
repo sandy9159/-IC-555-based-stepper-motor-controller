@@ -43,8 +43,6 @@ Basically stepper motors are brushless DC motors, normally a permanent magnet ro
 
 Stator winding then energize step by step in a sequential way so it get magnetize and force rotor to align with the magnetic field of stator coil.
 
-# PCB DEVELOPMENT 
-
 
 in this way rotor begin rotate in small steps, due to this behavior the motor gets its name “stepper motor”
 
