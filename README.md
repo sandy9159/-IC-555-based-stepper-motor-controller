@@ -108,6 +108,9 @@ Now we are clear with the theory now we can move towards our controller
 # IC555 BASED STEPPER MOTOR CONTROLLER
 ![MVI_5077 00_01_37_01 Still001](https://user-images.githubusercontent.com/19898602/123279549-94176700-d525-11eb-83e1-f019b626846b.jpg)
 ![MVI_5077 00_02_08_16 Still002](https://user-images.githubusercontent.com/19898602/123279558-9679c100-d525-11eb-8c4a-0417723f8536.jpg)
+![MVI_5077 mp4 00_03_14_10 Still001](https://user-images.githubusercontent.com/19898602/123912564-d2d07580-d99a-11eb-8db4-08c5953b1e4c.jpg)
+![MVI_5077 mp4 00_02_46_13 Still002](https://user-images.githubusercontent.com/19898602/123912619-e7ad0900-d99a-11eb-89a6-a244f5ebbc3a.jpg)
+
 
 # COMPONENT USED
 
@@ -152,6 +155,9 @@ and by pressing the push butting we can change the direction of stepper motor
 ![MVI_5077 00_01_19_01 Still003](https://user-images.githubusercontent.com/19898602/123296865-a51ba480-d534-11eb-84f7-61e5928b4a7e.jpg)
 ![MVI_5077 00_01_32_03 Still004](https://user-images.githubusercontent.com/19898602/123296871-a64cd180-d534-11eb-812c-2b39fdcd2640.jpg)
 ![MVI_5077 00_01_37_01 Still001](https://user-images.githubusercontent.com/19898602/123296876-a6e56800-d534-11eb-8736-48ed3e79e2c5.jpg)
+
+![MVI_5077 mp4 00_02_46_13 Still002](https://user-images.githubusercontent.com/19898602/123912658-f1cf0780-d99a-11eb-89e3-86fe7cc81f61.jpg)
+
 
 
 I have design this PCB in easyEDA software 
